@@ -21,5 +21,6 @@ const resolvePath = path.resolve("user", "documents", "node", "project");
 
 console.log(`Resolve Path: ${resolvePath}`);
 
+// Normalizes a path by getting rid of . and ..
 const normalizePath = path.normalize("/user/.documents/../node/projects");
 console.log("Normalize Path: ", normalizePath);
