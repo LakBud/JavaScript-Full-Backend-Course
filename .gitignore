@@ -28,6 +28,7 @@ coverage/
 
 # dotenv environment variables file
 .env
+.env.local
 
 # Mac system files
 .DS_Store
@@ -39,7 +40,7 @@ coverage/
 tmp/
 temp/
 tempCodeRunnerFile.js
-mongoDB
+
 
 # Build output
 dist/
